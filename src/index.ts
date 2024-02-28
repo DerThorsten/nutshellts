@@ -1,3 +1,4 @@
-import { Num } from './Num'
+import parse from "bash-parser";
+import {run} from "./bash_emulator";
+export {parse,run}
 
-export { Num }
